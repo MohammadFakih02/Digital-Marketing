@@ -1,27 +1,30 @@
-  
   .main-bg {
-    background-color: #21DADB;
+    background-color: #4b92db;
   }
-  
-  .secondary-bg{
-    background-color: #35BBDF;
+
+  .contrast-bg {
+    background-color: #c8102e;
   }
+
   .dark-bg {
-    background-color: #4D94E6;
+    background-color: #0c2340;
   }
-  .black-bg {
-    background-color: black;
+
+  .gray-bg {
+    background-color: #8a8d8f;
   }
-  
+
   .main-txt {
-    color: #21DADB;
+    color: #4b92db;
   }
-  
+
   .secondary-txt {
-    color: #35BBDF;
+    color: #c8102e;
   }
-  
+
   .dark-txt {
-    color: #4D94E6;
+    color: #0c2340;
   }
-  
+  .gray-txt{
+    color:#8a8d8f;
+  }
