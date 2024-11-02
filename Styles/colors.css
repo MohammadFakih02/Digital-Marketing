@@ -1,7 +1,12 @@
   .main-bg {
-    background-color: #4b92db;
+    background-color: #4D94E6;
   }
-
+  .seconday-bg{
+    background-color: #32BBDF;
+  }
+  .third-bg{
+    background-color: #21DADB;
+  }
   .contrast-bg {
     background-color: #c8102e;
   }
@@ -15,10 +20,15 @@
   }
 
   .main-txt {
-    color: #4b92db;
+    color: #4D94E6;
   }
-
-  .secondary-txt {
+  .seconday-txt{
+    color:#32BBDF;
+  }
+  .third-txt{
+    color: #21DADB;
+  }
+  .contrast-txt {
     color: #c8102e;
   }
 

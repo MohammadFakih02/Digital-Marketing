@@ -7,6 +7,15 @@
     src: url("../Assets/Fonts/Montserrat-Bold.ttf");
     font-weight: bold;
 }
+@font-face {
+    font-family: "Roboto";
+    src: url("../Assets/Fonts/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../Assets/Fonts/Roboto-Regular.ttf");
+}
 
 
 
