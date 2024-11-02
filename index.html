@@ -4,13 +4,14 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Styles/utilities.css">
+    <link rel="stylesheet" href="/Styles/util.css">
     <link rel="stylesheet" href="/Styles/colors.css">
     <link rel="stylesheet" href="/Styles/index.css">
+    <link rel="stylesheet" href="/Styles/base.css">
     <title></title>
 </head>
 <body>
-    <header class="main-bg">
+    <header>
         <div class="nav-logo"><img src="/Assets/logo.png"></div>
         <div class="nav-titles">
             <a href="d">About us</a>
@@ -18,7 +19,23 @@
             <a href="d">Services</a>
             <a href="d">Reviews</a>
         </div>
-        <a></a><button class="contrast-bg">Contact us</button></a>
+        <button class="contrast-bg">Contact us</button>
+        <div class="hamburger-menu" id="mobile-menu">
+            <div class="burger-icon"><img src="/Assets/burger-menu.svg" alt=""></div>
+            <div class="side-menu hidden" id="mobile-menu-content">
+                <a href="d">About us</a>
+                <a href="d">Our Customers</a>
+                <a href="d">Services</a>
+                <a href="d">Review</a>
+            </div>
+      </div>
     </header>
+    <section class="hero-section">
+        <img src="/Assets/hero-bg.png">
+    </section>
+
+
+
+    <script src="/Scripts/index.js"></script>
 </body>
 </html>
