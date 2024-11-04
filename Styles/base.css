@@ -27,6 +27,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto';
+  scroll-behavior: smooth
 }
 
 img {
@@ -181,6 +182,7 @@ footer {
 .footer-info {
   font-size: 12px;
 }
+
 
 
 

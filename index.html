@@ -3,6 +3,8 @@
 
 <head>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Styles/util.css">
@@ -13,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="nav">
         <div class="nav-logo"><img src="/Assets/logo.png"> Social Reach</div>
         <div class="nav-titles">
             <a href="#about-us">About us</a>
@@ -21,7 +23,6 @@
             <a href="#services">Services</a>
             <a href="#reviews">Reviews</a>
         </div>
-        <button class="contrast-bg">Contact us</button>
         <div class="hamburger-menu" id="mobile-menu">
             <div class="burger-icon"><img src="/Assets/burger-menu.svg" alt=""></div>
             <div class="side-menu hidden" id="mobile-menu-content">
@@ -35,20 +36,17 @@
     <section class="hero-section">
         <img src="/Assets/hero-bg.png">
         <div>
-            <h1>Grow Your Business With Customized Digital Marketing</h1>
+            <h1 class="hero-text"></h1>
             <img class="hero-ad" src="/Assets/hero-ad.png">
         </div>
 
     </section>
 
     <section class="about-us-section" id="about-us">
-        <div class="about-us-head">
-            <h1>We help client websites achieve top positions on Google, boosting their visibility and reach on a global
+        <div class="about-us-head ">
+            <h1 class="about-title">We help client websites achieve top positions on Google, boosting their visibility and reach on a global
                 scale.</h1>
-            <p>Social Reach is a dynamic, versatile and full-service digital marketing agency that
-                doesn’t rely on smoke and mirrors to attract new clients. Instead, Social Reach trusts its own search
-                engine
-                optimization (SEO) and marketing skills to drive new customers to our website.</p>
+            <p class="about-subtitle"></p>
         </div>
         <div class="about-us-container">
             <div class="about-us-half">
