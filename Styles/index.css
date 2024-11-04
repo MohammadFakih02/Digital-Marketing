@@ -225,4 +225,25 @@
     margin-top: 30px;
     align-items: center;
   }
+  .hero-section>div>h1{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    width: 50%;
+    color: #0c2340;
+    margin-left: 20px;
+  }
+  .hero-section>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    padding: 0 5%;
+    gap:20%;
+  }
+  .hero-section>div>img{
+    width: 40%;
+    height: auto;
+    border-radius: 24px;
+  }
 }

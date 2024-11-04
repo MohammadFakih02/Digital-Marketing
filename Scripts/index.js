@@ -12,6 +12,10 @@ gsap.to(".hero-text",{
     duration: 2,
     text: "Grow Your Business With Customized Digital Marketing"
 });
+gsap.from(".hero-ad",{
+    duration:1,
+    x:"100vw",
+});
 
 gsap.from(".about-title",{
     duration:1,
