@@ -72,8 +72,36 @@ gsap.from(".about-text2",{
     }
 }); 
 
-gsap.to(".hero-text",{
+gsap.to(".customers-title",{
     duration: 2,
-    text: "Grow Your Business With Customized Digital Marketing"
+    text: "Businesses Have Already Grown With Our Digital Marketing Services",
+    scrollTrigger:{
+        trigger:".customers-title",
+        end: '+=250', 
+        scrub:0.5 
+    }
 }); 
 
+gsap.from(".mcustomer",{
+    duration: 1,
+    x:"100vw",
+    scrollTrigger:{
+        trigger:".mcustomer",
+        end: '+=300', 
+        scrub:0.5
+    }
+}); 
+let tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".ocimage1",
+        end: '+=700',
+        toggleActions: "play reverse play reverse",
+    }
+});
+
+tl.from(".ocimage1", { duration: 0.9, x: "100vw" })
+  .from(".ocimage2", { duration: 0.9, x: "100vw" }, "-=0.7")
+  .from(".ocimage3", { duration: 0.9, x: "100vw" }, "-=0.7")
+  .from(".ocimage4", { duration: 0.9, x: "100vw" }, "-=0.7")
+  .from(".ocimage5", { duration: 0.9, x: "100vw" }, "-=0.7");
+ 
