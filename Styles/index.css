@@ -102,12 +102,14 @@
 }
 .services-section>h1{
   margin: 20px;
+  overflow: hidden;
 }
 .services-card-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
+  overflow: hidden;
 }
 .service-card>img{
   margin: 10px;

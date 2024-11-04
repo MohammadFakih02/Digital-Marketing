@@ -91,7 +91,7 @@ gsap.from(".mcustomer",{
         scrub:0.5
     }
 }); 
-let tl = gsap.timeline({
+let customerstimeline = gsap.timeline({
     scrollTrigger: {
         trigger: ".ocimage1",
         end: '+=700',
@@ -99,9 +99,59 @@ let tl = gsap.timeline({
     }
 });
 
-tl.from(".ocimage1", { duration: 0.9, x: "100vw" })
+customerstimeline.from(".ocimage1", { duration: 0.9, x: "100vw" })
   .from(".ocimage2", { duration: 0.9, x: "100vw" }, "-=0.7")
   .from(".ocimage3", { duration: 0.9, x: "100vw" }, "-=0.7")
   .from(".ocimage4", { duration: 0.9, x: "100vw" }, "-=0.7")
   .from(".ocimage5", { duration: 0.9, x: "100vw" }, "-=0.7");
  
+  gsap.from(".scard1",{
+    duration: 1,
+    x:"-100vw",
+    scrollTrigger:{
+        trigger:".scard1",
+        end: '+=400', 
+        scrub:0.5
+    }
+}); 
+gsap.from(".scard2",{
+    duration: 1,
+    x:"100vw",
+    scrollTrigger:{
+        trigger:".scard2",
+        end: '+=400', 
+        scrub:0.5
+    }
+}); 
+gsap.from(".scard3",{
+    duration: 1,
+    x:"-100vw",
+    scrollTrigger:{
+        trigger:".scard3",
+        end: '+=400', 
+        scrub:0.5
+    }
+}); 
+gsap.from(".scard4",{
+    duration: 1,
+    x:"100vw",
+    scrollTrigger:{
+        trigger:".scard4",
+        end: '+=400', 
+        scrub:0.5
+    }
+}); 
+
+
+
+let reviews = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".review-card",
+        end: '+=300',
+        scrub:0.5,
+    }
+});
+
+reviews.from(".comment1",{duration: 1.5,scale: 0,borderRadius: "50%",opacity: 0,})
+.from(".comment2",{duration: 1.5,scale: 0,borderRadius: "50%",opacity: 0,})
+.from(".comment3",{duration: 1.5,scale: 0,borderRadius: "50%",opacity: 0,})
