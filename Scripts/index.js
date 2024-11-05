@@ -98,8 +98,8 @@ gsap.from(".mcustomer",{
 let customerstimeline = gsap.timeline({
     scrollTrigger: {
         trigger: ".ocimage1",
-        end: '+=700',
-        toggleActions: "play reverse play reverse",
+        end: '+=300',
+        scrub:0.5,
     }
 });
 
